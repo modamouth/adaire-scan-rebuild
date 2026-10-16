@@ -4,9 +4,9 @@ Adaire Scan Rebuild is a governed, clean-room rebuild of the Adaire Scan Barcode
 
 ## Current status
 
-**RB-4 is complete. RB-5 is ready but not authorised.**
+**RB-4 is complete. RB-5 is self-verified and awaiting RB-6 runtime and specialist verification.**
 
-The repository currently contains a verified Android-only Flutter plugin scaffold and minimal example application. It does not contain camera access, barcode decoding, scanner screens, or a callable scan API.
+The repository now contains an Android-only QR walking-skeleton candidate with typed Flutter outcomes, generated Pigeon transport, a native CameraX and ZXing pipeline, an accessible scanner surface, and a minimal example application. This is an implementation candidate, not a verified product or distributable release.
 
 The RB-4 candidate is commit `eafdcde0ca8b364a678bbf68ad511cbd16a9cc70`. Package and example analysis, tests, native Gradle lifecycle, debug build, release build, manifest inspection, and dependency inspection passed against that candidate.
 
@@ -95,6 +95,6 @@ The formal roadmap, phase gates, roles, and status are defined in [Adaire Scan R
 2. Product requirements and blocking architecture decisions: completed.
 3. RB-3 delivery controls and toolchain verification: completed.
 4. RB-4 package and Android example scaffold: completed.
-5. RB-5 Android QR walking skeleton: awaiting explicit human authorisation.
-6. RB-6 walking-skeleton verification: blocked on RB-5.
+5. RB-5 Android QR walking skeleton: implemented and self-verified at `9df8e20`.
+6. RB-6 walking-skeleton verification: ready for runtime and specialist review.
 7. EAN-13, Code 128, broader lifecycle behavior, and private-evaluation readiness: deferred until the QR gate passes.

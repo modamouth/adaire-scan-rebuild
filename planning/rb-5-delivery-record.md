@@ -1,10 +1,14 @@
 # RB-5 Android QR Walking Skeleton Delivery Record
 
-**Status:** in_progress
+**Status:** self_verified; awaiting RB-6 specialist and runtime verification
 
 **Authorised:** 2026-10-16 by the human principal
 
 **Starting baseline:** `1057d03a8193cd89979f9d979c0c06884ca8ab33`
+
+**Candidate:** `9df8e20c31845590437872eb4a2748a85006313d`
+
+**Automated evidence:** [RB-5 implementation evidence](../evidence/walking-skeleton/automated/rb-5-implementation.md)
 
 **Owner:** Mobile implementation under Review supervision
 

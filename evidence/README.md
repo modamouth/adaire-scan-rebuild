@@ -19,3 +19,4 @@ Every evidence record must state the work item, source commit, candidate version
 
 - RB-3A: [toolchain spike](toolchain/2026-10-16-spike.md) and [role reviews](toolchain/2026-10-16-role-reviews.md)
 - RB-4: [scaffold verification](walking-skeleton/automated/rb-4-scaffold.md) and [role reviews](walking-skeleton/reviews/rb-4-role-reviews.md)
+- RB-5: [automated implementation evidence](walking-skeleton/automated/rb-5-implementation.md); runtime and specialist verification remain pending under RB-6
