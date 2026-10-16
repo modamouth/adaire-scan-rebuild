@@ -9,7 +9,7 @@ The following decisions block or materially shape implementation. Each accepted 
 | ADQ-01 | Package identity, namespace, and repository layout | Prevents later publication and integration contradictions | Project scaffold |
 | ADQ-02 | Flutter, Dart, Java, Gradle, Android Gradle Plugin, Kotlin, compile SDK, target SDK, and minimum SDK ranges | Defines the reproducible toolchain and compatibility boundary | Project scaffold |
 | ADQ-03 | Native Android scanning library or platform API | Determines capability, licence, dependency, privacy, and maintenance risk | Scanner implementation |
-| ADQ-04 | Plugin architecture and public Dart API | Establishes separation between Dart contract and Android implementation | Walking skeleton |
+| ADQ-04 | Plugin architecture and public Dart API | Accepted: Flutter and Dart interface with native Kotlin scanner implementation | Walking skeleton |
 | ADQ-05 | Typed outcome and native transport envelope | Prevents ambiguous errors and message parsing | Walking skeleton |
 | ADQ-06 | Activity, permission, concurrency, and lifecycle state model | Protects exactly-once completion and camera ownership | Walking skeleton |
 | ADQ-07 | Logging, storage, network, and diagnostic policy | Establishes payload-safety controls | Any runtime code |
@@ -29,6 +29,8 @@ The following decisions block or materially shape implementation. Each accepted 
 - [ADR 0009](../../decisions/0009-use-layered-synthetic-verification.md)
 - [ADR 0010](../../decisions/0010-define-android-accessibility-contract.md)
 - [ADR 0011](../../decisions/0011-defer-private-release-signing.md)
+
+ADR 0005 is accepted. All other records in this list retain the status shown in their individual files.
 
 ## Decision criteria
 

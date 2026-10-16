@@ -4,6 +4,8 @@ Adaire Scan Rebuild is a clean workspace for redesigning the Adaire Scan Barcode
 
 The rebuild charter is approved. Product requirements and blocking architecture decisions are ready for human review. Production implementation remains blocked until those records and governed delivery controls are approved.
 
+The approved implementation shape is hybrid: a small Flutter and Dart package interface backed by a native Kotlin Android scanner. Flutter is the consumer integration layer, not the camera implementation.
+
 ## Why rebuild
 
 The legacy pilot established useful behavior and device evidence, but it also exposed the cost of repairing an existing multi-package structure while trying to establish a narrow, trustworthy Android scanning product. The rebuild will preserve validated requirements and lessons while making every code, dependency, and compatibility decision explicit.

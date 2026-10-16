@@ -29,6 +29,10 @@ A person can open a native scanner, understand how to align an approved barcode,
 
 The first implementation increment is an Android QR walking skeleton. It proves clean-host integration, native presentation, typed outcomes, exactly-once completion, synthetic scanning, and a reproducible private test artifact before EAN-13 and Code 128 are added.
 
+## Approved implementation shape
+
+Adaire Scan uses a hybrid plugin architecture. Flutter and Dart provide the consumer-facing contract and example integration. Native Kotlin provides the Android scanner, CameraX lifecycle, decoder integration, permissions, concurrency, torch, native interface, and accessibility behavior. This does not broaden the product beyond Android or authorise implementation before the remaining entry gates pass.
+
 ## Decisions still required
 
 - Approve the first supported Android API range.
