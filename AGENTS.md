@@ -11,7 +11,7 @@ The repository is in preparation. Do not add production implementation until the
 - Treat `/Users/luthando/adaire-scan` as legacy reference evidence, not a source tree to copy.
 - Preserve provenance when a legacy behavior, requirement, fixture, or lesson informs the rebuild.
 - Do not copy legacy implementation code without an explicit, recorded decision.
-- Android is the proposed first platform. iOS remains outside the initial rebuild unless separately approved.
+- Android is the approved first platform. iOS remains outside the initial rebuild unless separately approved.
 - Public distribution, external commitments, biometrics, and unrelated scanner packages remain outside scope unless separately approved.
 - Use synthetic barcode values in tests and evidence.
 - Never log, persist, transmit, or include decoded values in default diagnostics or stringification.
@@ -33,4 +33,3 @@ Confirm that the work item is approved and that its acceptance criteria and rele
 ## Completion discipline
 
 Do not represent work as complete without executed evidence. Keep implemented, self-verified, independently reviewed, product accepted, privately distributable, and publicly released as separate states.
-

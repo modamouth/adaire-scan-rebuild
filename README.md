@@ -2,7 +2,7 @@
 
 Adaire Scan Rebuild is a clean workspace for redesigning the Adaire Scan Barcode and QR capability without inheriting the legacy implementation structure or dependency graph.
 
-The repository currently contains preparation documents only. Production implementation is intentionally blocked until the product boundary, requirements, architecture decisions, and walking-skeleton acceptance criteria are approved.
+The rebuild charter is approved. Product requirements and blocking architecture decisions are ready for human review. Production implementation remains blocked until those records and governed delivery controls are approved.
 
 ## Why rebuild
 
@@ -16,17 +16,17 @@ The legacy repository at `/Users/luthando/adaire-scan` remains the evidence sour
 - [Product brief](docs/product-brief.md)
 - [Rebuild requirements](docs/requirements/rebuild-requirements.md)
 - [Architecture decision queue](docs/architecture/decision-queue.md)
+- [Requirements and architecture review pack](docs/architecture/review-pack.md)
 - [Legacy evidence inventory](docs/migration/legacy-inventory.md)
 - [Initial backlog](planning/backlog.md)
 - [Decision record template](decisions/0000-template.md)
 
-## Proposed delivery sequence
+## Approved delivery sequence
 
-1. Approve product scope and exclusions.
-2. Resolve blocking architecture decisions.
+1. Approve product scope and exclusions. Completed.
+2. Approve product requirements and blocking architecture decisions.
 3. Build an Android QR walking skeleton.
 4. Add EAN-13, Code 128, filtering, permissions, lifecycle, and accessibility behavior.
 5. Complete clean-host, physical-device, privacy, security, and private-release evidence.
 
-This sequence is a proposal until approved. It does not authorise public distribution, production release, or external commitments.
-
+The charter authorises preparation only. It does not yet authorise production implementation, public distribution, production release, or external commitments.

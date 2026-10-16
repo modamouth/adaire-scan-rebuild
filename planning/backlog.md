@@ -1,10 +1,12 @@
 # Adaire Scan Rebuild Initial Backlog
 
-**Status:** proposed
+**Status:** preparation in progress
 
 ## Preparation
 
 ### RB-0 Approve rebuild charter
+
+**Status:** done
 
 **Owner:** Product Owner and human principal
 
@@ -12,17 +14,23 @@
 
 ### RB-1 Approve product requirements
 
+**Status:** review
+
 **Owner:** Product Owner
 
 **Done when:** User, outcome, format sequence, platform boundary, acceptance criteria, and product exclusions are approved.
 
 ### RB-2 Resolve blocking architecture decisions
 
+**Status:** review
+
 **Owner:** Architect with Security, QA, UX/UI, and mobile input
 
 **Done when:** ADQ-01 through ADQ-09 have accepted ADRs and ADQ-10 is either accepted or explicitly deferred until private distribution.
 
 ### RB-3 Establish governed delivery controls
+
+**Status:** not started
 
 **Owner:** Orchestrator
 
@@ -61,4 +69,3 @@
 ### RB-10 Complete specialist reviews and Product Owner acceptance
 
 No item after RB-3 is authorised for implementation until the preparation entry gate passes.
-

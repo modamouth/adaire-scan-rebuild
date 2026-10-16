@@ -1,8 +1,10 @@
 # Adaire Scan Rebuild Charter
 
-**Status:** draft for human and Product Owner approval
+**Status:** approved by human principal
 
 **Prepared:** 2026-10-16
+
+**Approved:** 2026-10-16
 
 ## Purpose
 
@@ -10,11 +12,11 @@ Prepare and deliver a clean Adaire Scan implementation that provides a small, st
 
 The rebuild will use validated legacy behavior as evidence while avoiding automatic inheritance of legacy source, package structure, dependencies, metadata, and compatibility claims.
 
-## Proposed outcome
+## Approved outcome
 
 An authorised Flutter developer can integrate the rebuilt package into a clean Android host, scan the approved synthetic barcode formats, handle every terminal outcome without parsing messages, and evaluate the package privately using documented and reproducible steps.
 
-## Proposed initial scope
+## Approved initial scope
 
 - one Flutter package with one Android implementation;
 - QR as the walking-skeleton format;
@@ -26,7 +28,7 @@ An authorised Flutter developer can integrate the rebuilt package into a clean A
 - synthetic fixtures, automated tests, a minimal example host, and private test APKs; and
 - clean-host and OPPO CPH2207 Android 13 evidence.
 
-## Proposed exclusions
+## Approved exclusions
 
 - iOS implementation or compatibility claims;
 - Credit Card, ID, Passport, fingerprint, face-recognition, or other scanner packages;
@@ -62,4 +64,3 @@ Implementation may begin only when:
 ## Exit gate for rebuild preparation
 
 Preparation is complete when every entry-gate item is either approved or explicitly escalated. Preparation completion does not mean the product is implemented or ready for evaluation.
-

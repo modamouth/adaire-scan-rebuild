@@ -1,6 +1,6 @@
 # Architecture Decision Queue
 
-**Status:** open
+**Status:** Architect proposals prepared for human review
 
 The following decisions block or materially shape implementation. Each accepted decision must be recorded as an ADR in `decisions/`.
 
@@ -17,7 +17,19 @@ The following decisions block or materially shape implementation. Each accepted 
 | ADQ-09 | Accessibility contract for scanner controls and host return | Defines required native and Flutter behavior | Scanner UI |
 | ADQ-10 | Private signing, artifact retention, and distribution approach | Separates internal testing from authorised external evaluation | Private distribution |
 
+## Proposed decision records
+
+- [ADR 0002](../../decisions/0002-package-identity-and-layout.md)
+- [ADR 0003](../../decisions/0003-pin-android-toolchain.md)
+- [ADR 0004](../../decisions/0004-use-camerax-and-zxing-core.md)
+- [ADR 0005](../../decisions/0005-use-a-standard-flutter-plugin.md)
+- [ADR 0006](../../decisions/0006-define-typed-scan-contract.md)
+- [ADR 0007](../../decisions/0007-use-an-explicit-scan-state-machine.md)
+- [ADR 0008](../../decisions/0008-prohibit-runtime-data-egress.md)
+- [ADR 0009](../../decisions/0009-use-layered-synthetic-verification.md)
+- [ADR 0010](../../decisions/0010-define-android-accessibility-contract.md)
+- [ADR 0011](../../decisions/0011-defer-private-release-signing.md)
+
 ## Decision criteria
 
 Each ADR should record the context, considered options, evidence, consequences, rejected alternatives, security and accessibility effects, migration impact, and residual risk.
-
