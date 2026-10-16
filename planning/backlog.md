@@ -90,9 +90,13 @@ The `RB-*` identifiers in this backlog remain the authoritative units for author
 
 **Delivery record:** [RB-5 delivery record](rb-5-delivery-record.md)
 
+**Progress log:** [RB-5 worklog](worklogs/RB-5.md)
+
 **Candidate:** `9df8e20c31845590437872eb4a2748a85006313d`
 
 **Automated evidence:** [RB-5 implementation evidence](../evidence/walking-skeleton/automated/rb-5-implementation.md)
+
+**Specialist reviews:** [pending candidate-bound reviews](../evidence/walking-skeleton/reviews/rb-5/README.md)
 
 **Done when:** A synthetic QR scan produces the approved typed result, cancellation completes once, and no payload appears in logs, storage, network traffic, or default diagnostics.
 

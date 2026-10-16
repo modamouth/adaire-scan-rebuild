@@ -10,6 +10,10 @@
 
 **Automated evidence:** [RB-5 implementation evidence](../evidence/walking-skeleton/automated/rb-5-implementation.md)
 
+**Progress and handoffs:** [RB-5 worklog](worklogs/RB-5.md)
+
+**Candidate reviews:** [RB-5 review index](../evidence/walking-skeleton/reviews/rb-5/README.md)
+
 **Owner:** Mobile implementation under Review supervision
 
 **Reviewers:** Architect, QA, Security, UX/UI, Product Owner, and Scrum Master / Orchestrator
@@ -52,6 +56,8 @@ Existing exclusions and human-only licensing, distribution, risk, external-commi
 ## Evidence plan
 
 Store automated evidence under `evidence/walking-skeleton/automated/`. RB-6 will add emulator, physical-device, security-runtime, accessibility, clean-host, and final review records. Evidence must identify the exact commit and APK SHA-256 and must not retain decoded values, frames, secrets, APKs, or raw diagnostics.
+
+Material progress, evidence handoffs, review requests, corrections, blockers, and state changes are recorded in the worklog. Review decisions remain separate candidate-bound evidence and may be entered only by the applicable role after review.
 
 ## Stop and escalate
 
