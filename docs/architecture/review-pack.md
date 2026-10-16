@@ -1,6 +1,6 @@
 # Requirements and Architecture Review Pack
 
-**Status:** partially approved; remaining decisions ready for human review
+**Status:** approved
 
 **Prepared:** 2026-10-16
 
@@ -33,17 +33,15 @@ The baseline requires typed outcomes, strict QR-only behavior, exactly-once comp
 
 ML Kit performs barcode processing on-device, but Google's terms and Android disclosure state that the SDK sends operational metrics and device or application information to Google. Selecting it would conflict with the approved prohibition on analytics. CameraX plus ZXing avoids that known SDK data flow and supports the required custom accessible interface, while accepting the documented ZXing maintenance risk.
 
-## Decisions requested
+## Recorded decision
 
-The human principal should record whether they:
+On 2026-10-16, the human principal approved the Product Owner product brief and requirements, ADRs 0002 through 0010, and the ADR 0011 signing and distribution deferral. The human principal accepted the ZXing maintenance and Apache 2.0 dependency risk for private evaluation, authorised RB-3 delivery-control preparation, and authorised the toolchain-only spike.
 
-1. approve the Product Owner product brief and requirements;
-2. approve ADRs 0002 through 0004 and 0006 through 0010; ADR 0005 is already accepted;
-3. approve the ADR 0011 deferral for walking-skeleton work;
-4. accept the ZXing maintenance and Apache 2.0 dependency risk for private evaluation; and
-5. authorise RB-3 governed delivery-control preparation.
+Production scaffolding and QR implementation remain blocked until RB-3 is approved and the charter entry gate is complete.
 
-After those decisions, the Orchestrator may prepare RB-3. Production scaffolding and QR implementation remain blocked until RB-3 is approved and the charter entry gate is complete.
+## Toolchain verification update
+
+The authorised disposable spike passed analysis, tests, and Android debug and release builds. Flutter 3.47.7 restored its API 24 host minimum after an API 23 override. The Architect therefore recommends amending ADR 0003 from API 23 to API 24. See the [toolchain evidence](../../evidence/toolchain/2026-10-16-spike.md).
 
 ## Evidence sources
 

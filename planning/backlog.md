@@ -14,7 +14,7 @@
 
 ### RB-1 Approve product requirements
 
-**Status:** review
+**Status:** done
 
 **Owner:** Product Owner
 
@@ -22,7 +22,7 @@
 
 ### RB-2 Resolve blocking architecture decisions
 
-**Status:** review
+**Status:** done
 
 **Owner:** Architect with Security, QA, UX/UI, and mobile input
 
@@ -30,11 +30,25 @@
 
 ### RB-3 Establish governed delivery controls
 
-**Status:** not started
+**Status:** review
 
 **Owner:** Orchestrator
 
 **Done when:** Work states, review gates, supervision mode, evidence locations, Definition of Done, and escalation path are recorded for this repository.
+
+**Authorised:** 2026-10-16 by the human principal
+
+**Prepared:** [delivery controls](../governance/delivery-controls.md), [Definition of Done](../governance/definition-of-done.md), and [evidence register](../evidence/README.md)
+
+### RB-3A Verify the selected toolchain
+
+**Status:** blocked on decision
+
+**Owner:** Architect and DevOps
+
+**Evidence:** [2026-10-16 toolchain spike](../evidence/toolchain/2026-10-16-spike.md)
+
+**Decision required:** approve API 24 as the minimum supported Android level and resolve or explicitly accept the Android SDK tooling warning before RB-4.
 
 ## Walking skeleton
 

@@ -1,6 +1,8 @@
 # ADR 0011 Defer private release signing and distribution
 
-**Status:** proposed deferral
+**Status:** accepted deferral
+
+**Approved:** 2026-10-16 by the human principal
 
 **Date:** 2026-10-16
 

@@ -27,6 +27,9 @@ Read:
 4. `docs/architecture/decision-queue.md`
 5. `docs/migration/legacy-inventory.md`
 6. `planning/backlog.md`
+7. `governance/delivery-controls.md`
+8. `governance/definition-of-done.md`
+9. `evidence/README.md`
 
 Confirm that the work item is approved and that its acceptance criteria and relevant architecture decisions are resolved.
 

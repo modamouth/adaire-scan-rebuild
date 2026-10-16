@@ -1,6 +1,8 @@
 # ADR 0008 Prohibit runtime data egress and retention
 
-**Status:** proposed for Security and human review
+**Status:** accepted
+
+**Approved:** 2026-10-16 by the human principal
 
 **Date:** 2026-10-16
 
@@ -23,4 +25,3 @@ Security must inspect the merged manifest, dependency graph, runtime logs, app s
 ## Consequences
 
 The package cannot provide analytics, remote diagnostics, payload history, or cloud-assisted decoding. Any future data egress requires a new human-authorised product and Security decision.
-

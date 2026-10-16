@@ -1,6 +1,8 @@
 # ADR 0007 Use an explicit scan state machine
 
-**Status:** proposed for Architect and QA review
+**Status:** accepted
+
+**Approved:** 2026-10-16 by the human principal
 
 **Date:** 2026-10-16
 
@@ -23,4 +25,3 @@ Activity or engine detachment, permission denial, explicit Close, Android Back, 
 ## Consequences
 
 Concurrency and lifecycle behavior become testable as state transitions rather than incidental callbacks. The implementation must include state-transition unit tests and Android lifecycle tests.
-

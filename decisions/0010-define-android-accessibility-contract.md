@@ -1,6 +1,8 @@
 # ADR 0010 Define the Android accessibility contract
 
-**Status:** proposed for UX UI and human review
+**Status:** accepted
+
+**Approved:** 2026-10-16 by the human principal
 
 **Date:** 2026-10-16
 
@@ -26,4 +28,3 @@ The camera image itself is not represented as accessible content. Documentation 
 ## Consequences
 
 Accessibility is an acceptance boundary, not example polish. UX/UI review and TalkBack evidence are mandatory for the walking skeleton.
-

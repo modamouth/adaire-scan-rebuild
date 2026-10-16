@@ -1,6 +1,10 @@
 # ADR 0004 Use CameraX and ZXing Core for local scanning
 
-**Status:** proposed for human and Security review
+**Status:** accepted
+
+**Approved:** 2026-10-16 by the human principal
+
+The human principal accepted the ZXing maintenance and Apache 2.0 dependency risk for private evaluation. Security verification remains mandatory before completion.
 
 **Date:** 2026-10-16
 
@@ -45,4 +49,3 @@ Security and the human principal must approve the dependency licences. QA must t
 - [ZXing Apache 2.0 licence](https://github.com/zxing/zxing/blob/master/LICENSE)
 - [ML Kit terms and privacy](https://developers.google.com/ml-kit/terms)
 - [ML Kit Android data disclosure](https://developers.google.com/ml-kit/android-data-disclosure)
-

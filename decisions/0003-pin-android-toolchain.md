@@ -1,6 +1,8 @@
 # ADR 0003 Pin the initial Android toolchain
 
-**Status:** proposed with verification condition
+**Status:** accepted with open amendment
+
+**Approved:** 2026-10-16 by the human principal
 
 **Date:** 2026-10-16
 
@@ -27,14 +29,25 @@ The proposed minimum SDK is 23 because the selected CameraX baseline requires AP
 
 Before acceptance, a toolchain-only spike must create an empty plugin and example, run analysis and tests, build debug and release APKs, and record every resolved version and checksum. No scanner dependency or production behavior belongs in that spike.
 
+## Verification result
+
+The authorised disposable spike passed package and example analysis, generated tests, and Android debug and release builds. It resolved Android Gradle Plugin 9.1.0, Kotlin 2.4.0, and Gradle 9.3.1 with JDK 17, compile SDK 36, and target SDK 36.
+
+Flutter 3.47.7 defines API 24 as its default supported minimum. When the disposable example was changed to API 23, Flutter automatically restored `flutter.minSdkVersion`, resolving to API 24. The plugin library can declare API 23, but the selected Flutter example and host baseline cannot truthfully establish API 23 support.
+
+The Architect recommends amending the approved minimum from API 23 to API 24. This material compatibility change requires human approval before ADR 0003 verification can close.
+
 ## Consequences
 
 The project can begin from already available, previously exercised Flutter and JDK installations while refusing unverified broad compatibility claims.
 
 ## Residual risk
 
-Generated Android build versions may produce deprecation warnings or incompatibility. If so, the Architect must revise this proposal before RB-4.
+The build emitted an SDK XML version warning indicating that the installed Android command-line tooling and SDK metadata generations differ. Both builds passed, but the command-line tooling should be aligned or the warning explicitly accepted before RB-4.
+
+The generated example declares Flutter's NDK version even though the empty plugin has no native dependency. RB-4 must verify whether this declaration can be removed without affecting the build, consistent with the no-unnecessary-NDK decision.
 
 ## Evidence
 
 - [Flutter Android build configuration](https://docs.flutter.dev/deployment/android)
+- [Toolchain spike evidence](../evidence/toolchain/2026-10-16-spike.md)

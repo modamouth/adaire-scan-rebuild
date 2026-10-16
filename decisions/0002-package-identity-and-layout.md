@@ -1,6 +1,8 @@
 # ADR 0002 Define package identity and repository layout
 
-**Status:** proposed for human review
+**Status:** accepted
+
+**Approved:** 2026-10-16 by the human principal
 
 **Date:** 2026-10-16
 
@@ -33,4 +35,3 @@ The first repository structure remains small. A future rename or public publicat
 ## Residual risk
 
 The human principal must confirm the final package name, namespace, and licensing label before acceptance.
-

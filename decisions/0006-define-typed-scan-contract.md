@@ -1,6 +1,8 @@
 # ADR 0006 Define the typed scan contract
 
-**Status:** proposed for Product Owner and human review
+**Status:** accepted
+
+**Approved:** 2026-10-16 by the human principal
 
 **Date:** 2026-10-16
 
@@ -24,4 +26,3 @@ Default `toString`, exceptions, diagnostics, equality helpers, and evidence must
 ## Consequences
 
 Hosts can respond to terminal states without parsing messages. Adding EAN-13 or Code 128 later extends an approved format enum but does not change terminal outcome meaning.
-

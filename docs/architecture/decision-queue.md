@@ -1,6 +1,6 @@
 # Architecture Decision Queue
 
-**Status:** Architect proposals prepared for human review
+**Status:** blocking decisions accepted; ADR 0003 amendment pending
 
 The following decisions block or materially shape implementation. Each accepted decision must be recorded as an ADR in `decisions/`.
 
@@ -17,7 +17,7 @@ The following decisions block or materially shape implementation. Each accepted 
 | ADQ-09 | Accessibility contract for scanner controls and host return | Defines required native and Flutter behavior | Scanner UI |
 | ADQ-10 | Private signing, artifact retention, and distribution approach | Separates internal testing from authorised external evaluation | Private distribution |
 
-## Proposed decision records
+## Decision records
 
 - [ADR 0002](../../decisions/0002-package-identity-and-layout.md)
 - [ADR 0003](../../decisions/0003-pin-android-toolchain.md)
@@ -30,7 +30,7 @@ The following decisions block or materially shape implementation. Each accepted 
 - [ADR 0010](../../decisions/0010-define-android-accessibility-contract.md)
 - [ADR 0011](../../decisions/0011-defer-private-release-signing.md)
 
-ADR 0005 is accepted. All other records in this list retain the status shown in their individual files.
+ADRs 0002 through 0010 are accepted. ADR 0011 is an accepted deferral for walking-skeleton work. ADR 0003 retains its toolchain verification condition.
 
 ## Decision criteria
 

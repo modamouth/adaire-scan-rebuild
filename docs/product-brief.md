@@ -1,6 +1,8 @@
 # Adaire Scan Rebuild Product Brief
 
-**Status:** Product Owner final draft for human approval
+**Status:** approved
+
+**Approved:** 2026-10-16 by the human principal
 
 ## Product problem
 

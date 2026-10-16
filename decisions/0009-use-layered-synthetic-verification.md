@@ -1,6 +1,8 @@
 # ADR 0009 Use layered verification with synthetic fixtures
 
-**Status:** proposed for QA review
+**Status:** accepted
+
+**Approved:** 2026-10-16 by the human principal
 
 **Date:** 2026-10-16
 
@@ -27,4 +29,3 @@ All mandatory evidence for a gate must identify one source commit and artifact h
 ## Consequences
 
 The project gains reproducible evidence without retaining real values. Physical Android 13 evidence remains bounded and does not establish broad compatibility.
-
