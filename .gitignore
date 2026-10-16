@@ -1,4 +1,5 @@
 .dart_tool/
+.DS_Store
 .flutter-plugins
 .flutter-plugins-dependencies
 .idea/
@@ -11,4 +12,3 @@ android/local.properties
 android/key.properties
 **/*.jks
 **/*.keystore
-

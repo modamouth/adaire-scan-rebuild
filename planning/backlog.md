@@ -1,6 +1,6 @@
 # Adaire Scan Rebuild Initial Backlog
 
-**Status:** preparation complete; RB-4 awaiting governed authorisation
+**Status:** RB-4 governed scaffold implementation in progress
 
 ## Preparation
 
@@ -56,9 +56,15 @@
 
 ### RB-4 Scaffold the package and example
 
-**Status:** ready, awaiting governed implementation authorisation
+**Status:** in_progress
 
 **Owner:** Mobile implementation
+
+**Authorised:** 2026-10-16 by the human principal
+
+**Reviewers:** Architect, DevOps, and QA
+
+**Evidence plan:** Record source revision, package version, toolchain, commands, dependency boundary, analysis, tests, debug and release builds, artifact hashes, limitations, and role decisions under `evidence/walking-skeleton/automated/` and `evidence/walking-skeleton/reviews/`.
 
 **Depends on:** RB-0, RB-1, RB-2, RB-3
 

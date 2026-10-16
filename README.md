@@ -2,11 +2,11 @@
 
 Adaire Scan Rebuild is a clean workspace for redesigning the Adaire Scan Barcode and QR capability without inheriting the legacy implementation structure or dependency graph.
 
-The rebuild charter is approved. Product requirements and blocking architecture decisions are ready for human review. Production implementation remains blocked until those records and governed delivery controls are approved.
+The rebuild charter, product requirements, blocking architecture decisions, governed delivery controls, and pinned toolchain are approved. RB-4 is the authorised scaffold increment. It establishes the Android-only Flutter plugin and example without scanner behavior.
 
 The approved implementation shape is hybrid: a small Flutter and Dart package interface backed by a native Kotlin Android scanner. Flutter is the consumer integration layer, not the camera implementation.
 
-RB-3 delivery controls are accepted and the disposable toolchain spike is verified with Android API 24 as the configuration floor. Production scaffolding remains separately gated under RB-4.
+RB-3 delivery controls are accepted and the toolchain is verified with Android API 24 as the configuration floor. Scanner behavior remains separately gated under RB-5.
 
 ## Why rebuild
 
@@ -28,9 +28,10 @@ The legacy repository at `/Users/luthando/adaire-scan` remains the evidence sour
 ## Approved delivery sequence
 
 1. Approve product scope and exclusions. Completed.
-2. Approve product requirements and blocking architecture decisions.
-3. Build an Android QR walking skeleton.
-4. Add EAN-13, Code 128, filtering, permissions, lifecycle, and accessibility behavior.
-5. Complete clean-host, physical-device, privacy, security, and private-release evidence.
+2. Approve product requirements and blocking architecture decisions. Completed.
+3. Scaffold the package and Android example. RB-4 in progress.
+4. Build an Android QR walking skeleton.
+5. Add EAN-13, Code 128, filtering, permissions, lifecycle, and accessibility behavior.
+6. Complete clean-host, physical-device, privacy, security, and private-release evidence.
 
-The charter authorises preparation only. It does not yet authorise production implementation, public distribution, production release, or external commitments.
+RB-4 authorises the empty package scaffold only. It does not authorise scanner behavior, public distribution, production release, or external commitments.
