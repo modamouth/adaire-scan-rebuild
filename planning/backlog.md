@@ -1,6 +1,6 @@
 # Adaire Scan Rebuild Initial Backlog
 
-**Status:** RB-4 complete; RB-5 awaiting governed authorisation
+**Status:** RB-5 governed implementation in progress
 
 **Phase map:** [Adaire Scan Rebuild Delivery Phases](../docs/delivery-phases.md)
 
@@ -80,9 +80,15 @@ The `RB-*` identifiers in this backlog remain the authoritative units for author
 
 ### RB-5 Implement the Android QR walking skeleton
 
-**Status:** ready, awaiting governed implementation authorisation
+**Status:** in_progress
 
 **Owner:** Mobile implementation
+
+**Authorised:** 2026-10-16 by the human principal
+
+**Supervision:** Review
+
+**Delivery record:** [RB-5 delivery record](rb-5-delivery-record.md)
 
 **Done when:** A synthetic QR scan produces the approved typed result, cancellation completes once, and no payload appears in logs, storage, network traffic, or default diagnostics.
 

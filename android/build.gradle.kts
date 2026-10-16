@@ -72,5 +72,11 @@ kotlin {
 }
 
 dependencies {
+    implementation("androidx.activity:activity-ktx:1.8.1")
+    implementation("androidx.camera:camera-camera2:1.6.2")
+    implementation("androidx.camera:camera-lifecycle:1.6.2")
+    implementation("androidx.camera:camera-view:1.6.2")
+    implementation("com.google.zxing:core:3.5.4")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1")
     testImplementation("org.jetbrains.kotlin:kotlin-test")
 }

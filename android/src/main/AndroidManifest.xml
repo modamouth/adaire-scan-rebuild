@@ -1,3 +1,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
   package="com.adairetech.adaire_scan">
+  <uses-permission android:name="android.permission.CAMERA" />
+  <uses-feature android:name="android.hardware.camera.any" android:required="false" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" tools:node="remove" />
+
+  <application>
+    <activity
+      android:name=".ScannerActivity"
+      android:exported="false"
+      android:screenOrientation="portrait"
+      android:theme="@style/AdaireScanTheme" />
+  </application>
 </manifest>
