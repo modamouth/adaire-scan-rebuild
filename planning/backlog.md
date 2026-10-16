@@ -2,6 +2,10 @@
 
 **Status:** RB-4 complete; RB-5 awaiting governed authorisation
 
+**Phase map:** [Adaire Scan Rebuild Delivery Phases](../docs/delivery-phases.md)
+
+The `RB-*` identifiers in this backlog remain the authoritative units for authorisation, ownership, evidence, and completion. Phase membership does not grant implementation authority.
+
 ## Preparation
 
 ### RB-0 Approve rebuild charter

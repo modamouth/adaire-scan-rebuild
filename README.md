@@ -81,13 +81,15 @@ Generated APKs are private verification artifacts. They are ignored by Git, use 
 
 ## Governance and evidence
 
-Before changing implementation, read [AGENTS.md](AGENTS.md), the [rebuild charter](docs/rebuild-charter.md), [product brief](docs/product-brief.md), [requirements](docs/requirements/rebuild-requirements.md), [architecture queue](docs/architecture/decision-queue.md), [delivery controls](governance/delivery-controls.md), and [Definition of Done](governance/definition-of-done.md).
+Before changing implementation, read [AGENTS.md](AGENTS.md), the [rebuild charter](docs/rebuild-charter.md), [product brief](docs/product-brief.md), [requirements](docs/requirements/rebuild-requirements.md), [delivery phases](docs/delivery-phases.md), [architecture queue](docs/architecture/decision-queue.md), [delivery controls](governance/delivery-controls.md), and [Definition of Done](governance/definition-of-done.md).
 
 Implementation, self-verification, specialist review, product acceptance, private distribution, and public release are separate states. Evidence must identify the exact candidate commit and may not include decoded values, camera frames, real data, secrets, keystores, APKs, or transient build output.
 
 The legacy Adaire Scan repository is an evidence source only. No legacy source, fixture, dependency, metadata, or behavior is carried forward without an explicit provenance and approval record.
 
 ## Delivery sequence
+
+The formal roadmap, phase gates, roles, and status are defined in [Adaire Scan Rebuild Delivery Phases](docs/delivery-phases.md).
 
 1. Rebuild charter and product scope: completed.
 2. Product requirements and blocking architecture decisions: completed.
