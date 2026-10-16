@@ -1,6 +1,6 @@
 # Adaire Scan Rebuild Initial Backlog
 
-**Status:** RB-4 governed scaffold implementation in progress
+**Status:** RB-4 complete; RB-5 awaiting governed authorisation
 
 ## Preparation
 
@@ -56,7 +56,7 @@
 
 ### RB-4 Scaffold the package and example
 
-**Status:** in_progress
+**Status:** done
 
 **Owner:** Mobile implementation
 
@@ -66,13 +66,17 @@
 
 **Evidence plan:** Record source revision, package version, toolchain, commands, dependency boundary, analysis, tests, debug and release builds, artifact hashes, limitations, and role decisions under `evidence/walking-skeleton/automated/` and `evidence/walking-skeleton/reviews/`.
 
+**Candidate:** `eafdcde0ca8b364a678bbf68ad511cbd16a9cc70`
+
+**Evidence:** [scaffold verification](../evidence/walking-skeleton/automated/rb-4-scaffold.md) and [role reviews](../evidence/walking-skeleton/reviews/rb-4-role-reviews.md)
+
 **Depends on:** RB-0, RB-1, RB-2, RB-3
 
 **Done when:** The selected toolchain produces a clean Android package and minimal example with no scanner behavior or unnecessary dependency.
 
 ### RB-5 Implement the Android QR walking skeleton
 
-**Status:** blocked on RB-4
+**Status:** ready, awaiting governed implementation authorisation
 
 **Owner:** Mobile implementation
 

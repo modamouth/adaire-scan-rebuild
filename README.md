@@ -29,7 +29,7 @@ The legacy repository at `/Users/luthando/adaire-scan` remains the evidence sour
 
 1. Approve product scope and exclusions. Completed.
 2. Approve product requirements and blocking architecture decisions. Completed.
-3. Scaffold the package and Android example. RB-4 in progress.
+3. Scaffold the package and Android example. Completed under RB-4.
 4. Build an Android QR walking skeleton.
 5. Add EAN-13, Code 128, filtering, permissions, lifecycle, and accessibility behavior.
 6. Complete clean-host, physical-device, privacy, security, and private-release evidence.

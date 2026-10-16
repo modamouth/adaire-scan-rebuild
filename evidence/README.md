@@ -14,3 +14,8 @@ Evidence is organised by governed work item:
 Commit concise text or machine-readable summaries, not APKs, camera frames, decoded payloads, real personal data, secrets, keystores, generated build directories, or raw diagnostic archives.
 
 Every evidence record must state the work item, source commit, candidate version, artifact SHA-256 when applicable, environment, method or command, synthetic-data assumption, result, limitations, reviewer or executor, and date.
+
+## Recorded work
+
+- RB-3A: [toolchain spike](toolchain/2026-10-16-spike.md) and [role reviews](toolchain/2026-10-16-role-reviews.md)
+- RB-4: [scaffold verification](walking-skeleton/automated/rb-4-scaffold.md) and [role reviews](walking-skeleton/reviews/rb-4-role-reviews.md)
