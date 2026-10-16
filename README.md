@@ -6,7 +6,7 @@ The rebuild charter is approved. Product requirements and blocking architecture 
 
 The approved implementation shape is hybrid: a small Flutter and Dart package interface backed by a native Kotlin Android scanner. Flutter is the consumer integration layer, not the camera implementation.
 
-RB-3 delivery controls are prepared for review. The disposable toolchain spike passed analysis, tests, and debug and release builds, but implementation remains blocked on approval of API 24 as the minimum Android host level and final RB-3 controls.
+RB-3 delivery controls are accepted and the disposable toolchain spike is verified with Android API 24 as the configuration floor. Production scaffolding remains separately gated under RB-4.
 
 ## Why rebuild
 

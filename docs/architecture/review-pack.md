@@ -41,7 +41,7 @@ Production scaffolding and QR implementation remain blocked until RB-3 is approv
 
 ## Toolchain verification update
 
-The authorised disposable spike passed analysis, tests, and Android debug and release builds. Flutter 3.47.7 restored its API 24 host minimum after an API 23 override. The Architect therefore recommends amending ADR 0003 from API 23 to API 24. See the [toolchain evidence](../../evidence/toolchain/2026-10-16-spike.md).
+The authorised disposable spike passed analysis, tests, and Android debug and release builds. Flutter 3.47.7 restored its API 24 host minimum after an API 23 override. The Architect adopted API 24 after Product Owner consultation, DevOps verified the final toolchain without an application-owned NDK declaration, and QA approved the technical result. See the [toolchain evidence](../../evidence/toolchain/2026-10-16-spike.md).
 
 ## Evidence sources
 

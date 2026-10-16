@@ -1,6 +1,6 @@
 # Adaire Scan Rebuild Initial Backlog
 
-**Status:** preparation in progress
+**Status:** preparation complete; RB-4 awaiting governed authorisation
 
 ## Preparation
 
@@ -30,7 +30,7 @@
 
 ### RB-3 Establish governed delivery controls
 
-**Status:** review
+**Status:** done
 
 **Owner:** Orchestrator
 
@@ -40,19 +40,23 @@
 
 **Prepared:** [delivery controls](../governance/delivery-controls.md), [Definition of Done](../governance/definition-of-done.md), and [evidence register](../evidence/README.md)
 
+**Accepted:** 2026-10-16 by the Scrum Master / Orchestrator after QA review
+
 ### RB-3A Verify the selected toolchain
 
-**Status:** blocked on decision
+**Status:** done
 
 **Owner:** Architect and DevOps
 
 **Evidence:** [2026-10-16 toolchain spike](../evidence/toolchain/2026-10-16-spike.md)
 
-**Decision required:** approve API 24 as the minimum supported Android level and resolve or explicitly accept the Android SDK tooling warning before RB-4.
+**Outcome:** Architect adopted API 24 after Product Owner consultation. DevOps verified the resolved toolchain and removed the redundant application-owned NDK declaration. QA approved the technical result after record corrections. The remaining SDK XML warning is tracked as non-blocking toolchain debt.
 
 ## Walking skeleton
 
 ### RB-4 Scaffold the package and example
+
+**Status:** ready, awaiting governed implementation authorisation
 
 **Owner:** Mobile implementation
 
@@ -62,11 +66,15 @@
 
 ### RB-5 Implement the Android QR walking skeleton
 
+**Status:** blocked on RB-4
+
 **Owner:** Mobile implementation
 
 **Done when:** A synthetic QR scan produces the approved typed result, cancellation completes once, and no payload appears in logs, storage, network traffic, or default diagnostics.
 
 ### RB-6 Verify the walking skeleton
+
+**Status:** blocked on RB-5
 
 **Owner:** QA with Security and UX/UI
 
@@ -76,10 +84,18 @@
 
 ### RB-7 Add EAN-13 and Code 128
 
+**Status:** deferred until the QR walking skeleton passes
+
 ### RB-8 Add filtering, permissions, concurrency, and lifecycle recovery
+
+**Status:** deferred until the QR walking skeleton passes
 
 ### RB-9 Complete accessibility and private-evaluation documentation
 
+**Status:** blocked on the QR candidate
+
 ### RB-10 Complete specialist reviews and Product Owner acceptance
+
+**Status:** blocked on RB-6 and RB-9
 
 No item after RB-3 is authorised for implementation until the preparation entry gate passes.

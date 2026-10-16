@@ -1,6 +1,6 @@
 # Architecture Decision Queue
 
-**Status:** blocking decisions accepted; ADR 0003 amendment pending
+**Status:** blocking decisions accepted and toolchain verified
 
 The following decisions block or materially shape implementation. Each accepted decision must be recorded as an ADR in `decisions/`.
 

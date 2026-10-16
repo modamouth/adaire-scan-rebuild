@@ -35,13 +35,14 @@ The first implementation increment is an Android QR walking skeleton. It proves 
 
 Adaire Scan uses a hybrid plugin architecture. Flutter and Dart provide the consumer-facing contract and example integration. Native Kotlin provides the Android scanner, CameraX lifecycle, decoder integration, permissions, concurrency, torch, native interface, and accessibility behavior. This does not broaden the product beyond Android or authorise implementation before the remaining entry gates pass.
 
-## Decisions still required
+## Resolved preparation decisions
 
-- Approve the first supported Android API range.
-- Approve the Flutter and Dart toolchain range.
-- Approve package name, organisation namespace, version, and licence metadata.
-- Approve whether the example host is purely a verification harness or a maintained sample application.
-- Confirm the private distribution and signing approach before any external evaluation.
+- Android API 24 is the configuration floor; runtime support remains subject to executed evidence.
+- Flutter 3.47.7, Dart 3.13.5, JDK 17, SDK 36, Gradle 9.3.1, Android Gradle Plugin 9.1.0, and Kotlin 2.4.0 form the verified scaffold baseline.
+- The private package identity is `adaire_scan` under `com.adairetech.adaire_scan` at initial version `0.1.0-dev.1`.
+- The example is a minimal verification and integration harness, not a separately supported application.
+
+Private signing and distribution remain deferred under ADR 0011 until external evaluation is considered.
 
 ## Product acceptance criteria
 

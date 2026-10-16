@@ -1,8 +1,10 @@
 # Governed Delivery Controls
 
-**Status:** proposed for human approval
+**Status:** accepted by Scrum Master / Orchestrator
 
 **Prepared:** 2026-10-16
+
+**Reviewed:** 2026-10-16 by QA
 
 ## Scope
 
